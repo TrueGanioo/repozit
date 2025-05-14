@@ -1,8 +1,10 @@
-<<<<<<< HEAD
-# Predictive Maintenance Project
-This is a machine learning project for predicting equipment failures using Streamlit and UCI dataset.
-- Features: Air temperature, Process temperature, Rotational speed, Torque, Tool wear.
-- Target: Machine failure (0 or 1).
-=======
-# -
->>>>>>> 5b4cc3831ae9ee2ca49d84004c951612d468af9c
+# Проект: Бинарная классификация для предиктивного обслуживания оборудования
+
+## Описание проекта
+Цель проекта — разработать модель машинного обучения, которая предсказывает, произойдет ли отказ оборудования (Target = 1) или нет (Target = 0). Результаты работы оформлены в виде Streamlit-приложения.
+
+## Датасет
+Используется датасет **"AI4I 2020 Predictive Maintenance Dataset"**, содержащий 10 000 записей с 14 признаками. Подробное описание датасета можно найти в [документации](https://archive.ics.uci.edu/dataset/601/predictive+maintenance+data).
+
+## Установка и запуск
+1. Клонируйте репозиторий:
