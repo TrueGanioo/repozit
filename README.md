@@ -17,10 +17,10 @@
 Используется датасет **"AI4I 2020 Predictive Maintenance Dataset"**, содержащий 10 000 записей с 14 признаками. Подробное описание датасета можно найти в [документации](https://archive.ics.uci.edu/dataset/601/predictive+maintenance+data).
 
 ## Установка и запуск
-1. Клонируйте репозиторий:
+1. Клонируйте репозиторий через командную строку
 2. Установка и запуск
 ## Клонируйте репозиторий:
-git clone https://github.com/TrueGanioo/repozit.git ;
+git clone https://github.com/TrueGanioo/repozit.git 
 
 cd repozit
 
@@ -34,7 +34,7 @@ python -m venv venv
 ## Запустите приложение:
 streamlit run app.py
 
-Откройте http://localhost:8501 в браузере.
+или откройте окно http://localhost:8501 
 
 ## Структура репозитория
 app.py: Основной файл приложения.
