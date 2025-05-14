@@ -8,3 +8,35 @@
 
 ## Установка и запуск
 1. Клонируйте репозиторий:
+2. Установка и запуск
+## Клонируйте репозиторий:
+git clone https://github.com/TrueGanioo/repozit.git ;
+
+cd repozit
+
+## Создайте виртуальное окружение:
+python -m venv venv
+
+.\venv\Scripts\activate
+
+## Установите все необходимые библеотеки:
+ pip install -r requirements.txt
+## Запустите приложение:
+streamlit run app.py
+
+Откройте http://localhost:8501 в браузере.
+
+## Структура репозитория
+app.py: Основной файл приложения.
+
+pages/analysis_and_model.py: Страница с анализом данных и моделью.
+
+pages/presentation.py: Страница с презентацией проекта.
+
+requirements.txt: Файл с зависимостями.
+
+data/predictive_maintenance.csv: Датасет.
+
+README.md: Описание проекта.
+
+video/: Папка для видео-демонстрации (будет добавлено demo.mp4 после записи).
